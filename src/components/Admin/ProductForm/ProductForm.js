@@ -35,7 +35,7 @@ const ProductForm = () => {
     };
     console.log(productData);
 
-    fetch('http://localhost:5000/addProduct',{
+    fetch('https://intense-headland-62358.herokuapp.com/addProduct',{
       method: 'POST',
       headers: {
         'Content-type': 'application/json'

@@ -8,7 +8,7 @@ const AllProducts = () => {
     console.log(products)
 
     useEffect(() =>{
-        fetch(`http://localhost:5000/collect`)
+        fetch(`https://intense-headland-62358.herokuapp.com/collect`)
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
